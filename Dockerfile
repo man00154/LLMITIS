@@ -5,7 +5,7 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Set the Gemini API key as an environment variable
-ENV GEMINI_API_KEY=AIzaSyC_I9f8QTrGlZWzTEZXp6Ml4CM6yWXn5_g
+ENV GEMINI_API_KEY="AIzaSyC_I9f8QTrGlZWzTEZXp6Ml4CM6yWXn5_g"
 
 # Copy the requirements file into the container at /app
 COPY requirements.txt ./
